@@ -672,6 +672,75 @@ dataset = {
     "cumsum_reverse": {
         "category": "math"
     },
+    "digamma":{
+        "category": "math"
+    },
+    "i0":{
+        "category": "math"
+    },
+    "igamma":{
+        "category": "math"
+    },
+    "igammac":{
+        "category": "math"
+    },
+    "lgamma":{
+        "category":"math"
+    },
+    "mvlgamma":{
+        "category": "math"
+    },
+    "polygamma":{
+        "category":"math"
+    },
+    "atan2": {
+        "category":"math"
+    },
+    "hypot": {
+        "category": "math"
+    },
+    "log10": {
+        "category": "math"
+    },
+    "logit": {
+        "category": "math"
+    },
+    "arcsin": {
+        "category": "math"
+    },
+    "pow": {
+        "category": "math"
+    },
+    "heaviside": {
+        "category": "math"
+    },
+    "adjoint": {
+        "category": "math"
+    },
+    "complex": {
+        "category": "math"
+    },
+    "polar": {
+        "category": "math"
+    },
+    "img": {
+        "category": "math"
+    },
+    "frexp": {
+        "category": "math"
+    },
+    "frac": {
+        "category": "math"
+    },
+    "nextafter": {
+        "category": "math
+    },
+    "copysign": {
+        "category": "math"
+    },
+    "gradient":{
+        "category": "math"
+    },
     "matmul_with_diagonal_matrices": {
         "category": "matmul"
     },
@@ -747,6 +816,9 @@ dataset = {
     "layer_norm": {
         "category": "normalization"
     },
+    "quantized_batch_norm": {
+        "category": "normalization"
+    },
     "adam": {
         "category": "optimizer"
     },
@@ -778,6 +850,12 @@ dataset = {
         "category": "pooling"
     },
     "max_pooling_2d": {
+        "category": "pooling"
+    },
+    "quantized_max_pool1d": {
+        "category": "pooling"
+    },
+    "quantized_max_pool2d": {
         "category": "pooling"
     },
     "index_select": {
@@ -814,6 +892,33 @@ dataset = {
         "category": "index"
     },
     "argmin_over_a_dimension": {
+        "category": "index"
+    },
+    "column_stack": {
+        "category": "index"
+    },
+    "movedim": {
+        "catetogy": "index"
+    },
+    "reshape": {
+        "category": "index"
+    },
+    "scatter_reduce": {
+        "category": "index"
+    },
+    "select": {
+        "category": "index"
+    },
+    "slice_scatter": {
+        "category": "index"
+    },
+    "swapaxes": {
+        "category": "index"
+    },
+    "swapdims": {
+        "category": "index"
+    },
+    "unbind": {
         "category": "index"
     },
     "bicubic_upsample": {
