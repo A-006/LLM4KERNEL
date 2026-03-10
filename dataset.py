@@ -733,7 +733,7 @@ dataset = {
         "category": "math"
     },
     "nextafter": {
-        "category": "math
+        "category": "math"
     },
     "copysign": {
         "category": "math"
@@ -898,7 +898,7 @@ dataset = {
         "category": "index"
     },
     "movedim": {
-        "catetogy": "index"
+        "category": "index"
     },
     "reshape": {
         "category": "index"
