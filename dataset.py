@@ -1010,5 +1010,41 @@ dataset = {
     },
     "scaled_dot_product_attention_inference": {
         "category": "attention"
+    },
+    "sparse_bsc_tensor": {
+        "category": "sparse"
+    },
+    "sparse_bsr_tensor": {
+        "category": "sparse"
+    },
+    "sparse_coo_tensor":{
+        "category": "sparse"
+    },
+    "sparse_csc_tensor":{
+        "category": "sparse"
+    },
+    "sparse_csr_tensor":{
+        "category": "sparse"
+    },
+    "poisson":{
+        "category":"random"
+    },
+    "rand":{
+        "category":"random"
+    },
+    "randint":{
+        "category":"random"
+    },
+    "randn":{
+        "category":"random"
+    },
+    "full_like":{
+        "category": "creation"
+    },
+    "linspace":{
+        "category": "creation"
+    },
+    "logspace":{
+        "category": "creation"
     }
 }
